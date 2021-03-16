@@ -1,0 +1,853 @@
+@import url('https://fonts.googleapis.com/css2? family = Pathway + Gothic + One & display = swap');
+@import url('https://fonts.googleapis.com/css2? family = Saira + Condensed: wght @ 200; 300; 400 & display = swap'); 
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2{
+    font-family: 'Pathway Gothic One', sans-serif;
+ 
+}
+
+h3, h4, h5, h6, p,button,a,li{
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+h2{
+    display: inline-block;
+    position: relative;
+}
+
+
+
+
+
+header{
+    width: 100%;
+    position: relative;
+    padding: 40px 0;
+    
+
+    padding-top: 0px;
+    padding-bottom: 150px;
+    background: url(../img/bg-header4.gif) center no-repeat;
+    background-size: cover;
+}
+
+header .container{
+    width: 1200px;
+    max-width: 100%;
+    
+
+}
+
+header .tarjeta-dd{
+    text-align: center;
+    margin-top: 90px;
+}
+
+header .tarjeta-dd .title{
+    padding: 10px 0;
+    background: #9705fc73;
+   
+}
+
+header .tarjeta-dd .title h2{
+    color: #fff;
+    margin-top: 0px;
+
+}
+
+header .tarjeta-dd .cont-text{
+    padding: 14px 10px;
+    background: #a305fc75;
+
+}
+
+header .tarjeta-dd .cont-text p{
+    color: #fff;
+    font-size: 24px;
+}
+
+header .tarjeta-dd2{
+    text-align: center;
+    margin-top: 90px;
+    
+}
+
+header .tarjeta-dd2 .title{
+    padding: 10px 0;
+    background: #a305fc75;
+
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+header .navbar{
+    font-size: 18px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+
+}
+
+
+
+header .navbar-brand img{
+    transition: .4s;
+}
+
+header .navbar-brand img:hover{
+    transform: scale(1.2);
+}
+
+header .bg-dark{
+    background-color: #1d0348ad!important;
+}
+
+header .container .tarjeta-dd a{
+    color: #de09a9;;
+}
+
+/* FIN HEADER */
+
+/* INICIO HABILIDADES */
+#Habilidades{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 100px;
+
+}
+
+#Habilidades .row .col-card-habilidades{
+    width: 25%;
+    position: relative;
+    margin-top: 40px;
+    
+
+}
+
+
+
+#Habilidades .row .col-card-habilidades img{
+    transition: .6s;
+
+}
+
+#Habilidades .row .col-card-habilidades img:hover{
+    border-radius: 70%;
+    
+}
+
+#Habilidades h2:hover{
+    color: #5609DE;
+}
+
+#Habilidades h3:hover{
+    color: #5609DE;
+}
+
+#Habilidades .row .col-card-habilidades h3{
+    margin-top: 20px;
+}
+
+#Estudios{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 100px;
+    background: url(../img/bg-header1.gif);
+}
+
+#Estudios .container{
+    background: #a305fc75;
+}
+
+#Estudios h2{
+    color: #fff;
+}
+
+#Estudios .row .col-card-estudios{
+    width: 30%;
+    position: relative;
+    margin-top: 40px;
+}
+
+#Estudios h2{
+    transition: .4s;
+}
+
+#Estudios h2:hover{
+    color: #de09a9;
+}
+
+#Estudios .col-card-estudios h3{
+    color: #fff;
+    margin-top: 20px;
+    font-size: 20px;
+    transition: .4s;
+}
+#Estudios .col-card-estudios h3:hover{
+    color: #de09a9;
+}
+
+#Experiencia{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 100px;
+    background: #fff;
+}
+
+#Experiencia .row .col-card-experiencia{
+    width: 30%;
+    position: relative;
+    margin-top: 40px;
+}
+
+#Experiencia h2{
+    transition: .4s;
+    
+}
+
+#Experiencia h2:hover{
+    color: #5609DE;
+}
+
+#Experiencia .col-card-experiencia h3{
+    margin-top: 20px;
+    font-size: 20px;
+    transition: .4s;
+}
+#Experiencia .col-card-experiencia h3:hover{
+    color: #5609DE;
+}
+
+
+#Proyectos{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 100px;
+    background: url(../img/Bg-header.gif);
+}
+
+#Proyectos .row .col-card-proyectos{
+    width: 30%;
+    position: relative;
+    margin-top: 40px;
+}
+
+
+
+#Proyectos h2{
+    transition: .4s;
+    color: #fff;
+
+}
+
+#Proyectos h2:hover{
+    color:  #5609DE;
+}
+
+#redes{
+    text-align: center;
+    padding: 60px 0;
+}
+
+#redes h2{
+    transition: .4s;
+}
+
+#redes h2:hover{
+    color: #5609DE;
+}
+
+#Contacto{
+    width: 100%;
+    text-align: center;
+    background: url(../img/bg-header5.gif);
+    
+}
+
+#Contacto h2{
+    color: #fff;
+    transition: .4s;
+}
+
+#Contacto h2:hover{
+    color: #de09a9;
+}
+
+#Contacto .col-card-contacto{
+    width: 50%;
+    position: relative;
+    margin-top: 40px;
+    
+} 
+
+#Contacto .col-card-contacto h3{
+    color: #fff;
+    transition: .4s;
+    font-size: 20px;
+}
+
+
+#Contacto .col-card-contacto h3:hover{
+    color: #de09a9;
+}
+
+#Contacto .col-card-contacto img{
+    transition: .4s;
+}
+
+#Contacto .col-card-contacto img:hover{
+    transform: scale(1.2);
+}
+
+/* DATOS */
+
+#general h2{
+    color: #fff;
+}
+
+#general .tarjeta-dd1{
+    width: 1200px;
+    max-width: 100%;
+        
+}
+    
+#general .tarjeta-dd1{
+    text-align: center;
+    margin-top: 90px;
+    }
+
+#general .tarjeta-dd1 .title{
+    padding: 10px 0;
+    background: #9705fc73;
+       
+}
+    
+#general .tarjeta-dd1 .title h2{
+    color: #fff;
+    margin-top: 0px;
+    
+}
+    
+#general .tarjeta-dd1 .cont-text{
+    padding: 14px 10px;
+    background: #a305fc75;
+    
+}
+    
+#general .tarjeta-dd1 .cont-text p{
+    color: #fff;
+    font-size: 24px;
+    
+}
+
+#general .tarjeta-ddd{
+    text-align: center;
+    margin-top: 90px;
+    
+}
+
+#general .tarjeta-ddd .title{
+    padding: 55px 0;
+    background: #ffffff96;
+
+}
+
+
+#general .tarjeta-dp1{
+    width: 1200px;
+    max-width: 100%;
+        
+}
+    
+#general .tarjeta-dp1{
+    text-align: center;
+    margin-top: 90px;
+    }
+
+#general .tarjeta-dp1 .title{
+    padding: 10px 0;
+    background: #9705fc73;
+       
+}
+    
+#general .tarjeta-dp1 .title h2{
+    color: #fff;
+    margin-top: 0px;
+    
+}
+    
+#general .tarjeta-dp1 .cont-text{
+    padding: 14px 10px;
+    background: #a305fc75;
+    
+}
+    
+#general .tarjeta-dp1 .cont-text p{
+    color: #fff;
+    font-size: 24px;
+    
+}
+
+#general .tarjeta-dp2{
+    text-align: center;
+    margin-top: 90px;
+    
+}
+
+#general .tarjeta-dp2 .title{
+    padding: 55px 0;
+    background: #ffffff96;
+
+}
+
+#nav-tab a{
+    color: #38A8E8;
+}
+
+#btn-elemento{
+    position: fixed;
+    z-index: 11;
+    top: 256px;
+    right: -60px;
+    transform: rotate(-90deg);
+    background: rgb(102, 16, 242);
+    color: rgb(255, 255, 255);
+    padding: 6px 50px;
+    border: 3px solid #921EFA;
+    transition: .4s;
+    outline: none;
+}
+
+
+#btn-elemento.active{
+    right: 190px;
+    transition: .4s;
+
+}
+
+#cont-colors{
+    background: #fff;
+    position: fixed;
+    z-index: 11;
+    top: 200px;
+    right: -273px;
+    padding: 34px 15px; 
+    transition: .4s;
+}
+
+#cont-colors.active{
+    right: 0;
+    transition: .4s;
+}
+
+#cont-colors #pink{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background: pink;
+    outline: none;
+}
+
+#cont-colors #blue{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background: blue;
+    outline: none;
+}
+
+#cont-colors #green{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background: green;
+    outline: none;
+}
+
+#cont-colors #orange{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background: orange;
+    outline: none;
+}
+
+#cont-colors #purple{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background: #921EFA;
+    outline: none;
+}
+
+
+
+
+#cont-colors h3{
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #921EFA;
+}
+
+/* VARIANTES DE COLOR */
+#body.pink header .bg-dark{
+    background: pink;
+    transition: .4s;
+
+}
+
+#body.pink #btn-elemento{
+    background: pink;
+    transition: .4s;
+}
+
+#body.pink header{
+    background: pink;
+    transition: .4s;
+}
+
+#body.pink header .tarjeta-dd .title{
+    background: rgb(223, 109, 128);
+    transition: .4s;
+}
+
+#body.pink header .tarjeta-dd .cont-text{
+    background: rgb(223, 109, 128);
+    transition: .4s;
+}
+
+#body.pink header .tarjeta-dd2 .title{
+    background: rgb(223, 109, 128);
+    transition: .4s;
+}
+
+#body.pink #Estudios .container{
+    background: rgb(223, 109, 128);
+    transition: .4s;
+}
+
+#body.pink #Estudios{
+    background: pink;
+    transition: .4s;
+}
+
+#body.pink #Proyectos{
+    background: pink;
+    transition: .4s;
+}
+
+#body.pink #Contacto{
+    background: pink;
+    transition: .4s;
+}
+
+
+/* COLOR AZUL */
+#body.blue #btn-elemento{
+    background: #4382FF;
+    transition: .4s;
+}
+
+#body.blue header{
+    background: #4382FF;
+    transition: .4s;
+}
+
+#body.blue header .tarjeta-dd .title{
+    background: rgb(47, 47, 206);
+    transition: .4s;
+}
+
+#body.blue header .tarjeta-dd .cont-text{
+    background: rgb(47, 47, 206);
+    transition: .4s;
+}
+
+#body.blue header .tarjeta-dd2 .title{
+    background: rgb(47, 47, 206);
+    transition: .4s;
+}
+
+#body.blue #Estudios .container{
+    background: rgb(47, 47, 206);
+    transition: .4s;
+}
+
+#body.blue #Estudios{
+    background: #4382FF;
+    transition: .4s;
+}
+
+#body.blue #Proyectos{
+    background: #4382FF;
+    transition: .4s;
+}
+
+#body.blue #Contacto{
+    background: #4382FF;
+    transition: .4s;
+}
+
+
+/* COLOR VERDE */
+
+#body.green #btn-elemento{
+    background: #1CF550;
+    transition: .4s;
+}
+
+#body.green header{
+    background: #1CF550;
+    transition: .4s;
+}
+
+#body.green header .tarjeta-dd .title{
+    background: #0DDE67;
+    transition: .4s;
+}
+
+#body.green header .tarjeta-dd .cont-text{
+    background: #0DDE67;
+    transition: .4s;
+}
+
+#body.green header .tarjeta-dd2 .title{
+    background: #0DDE67;
+    transition: .4s;
+}
+
+#body.green #Estudios .container{
+    background: #0DDE67;
+    transition: .4s;
+}
+
+#body.green #Estudios{
+    background: #1CF550;
+    transition:.4s;
+}
+
+#body.green #Proyectos{
+    background: #1CF550;
+    transition: .4s;
+}
+
+#body.green #Contacto{
+    background: #1CF550;
+    transition: .4s;
+}
+
+
+/* COLOR NARANJA */
+
+
+#body.orange #btn-elemento{
+    background: orange;
+    transition: .4s;
+}
+
+#body.orange header{
+    background: orange;
+    transition: .4s;
+}
+
+#body.orange header .tarjeta-dd .title{
+    background: rgb(184, 121, 6);
+    transition: .4s;
+}
+
+#body.orange header .tarjeta-dd .cont-text{
+    background: rgb(184, 121, 6);
+    transition: .4s;
+}
+
+#body.orange header .tarjeta-dd2 .title{
+    background: rgb(184, 121, 6);
+    transition: .4s;
+}
+
+#body.orange #Estudios .container{
+    background: rgb(184, 121, 6);
+    transition: .4s;
+}
+
+#body.orange #Estudios{
+    background: orange;
+    transition:.4s;
+}
+
+#body.orange #Proyectos{
+    background: orange;
+    transition: .4s;
+}
+
+#body.orange #Contacto{
+    background: orange;
+    transition: .4s;
+}
+
+
+/* COLOR MORADO */
+
+
+#body.purple #btn-elemento{
+    background: purple;
+    transition: .4s;
+}
+
+#body.purple header{
+    background: url(../img/bg-header4.gif) center no-repeat;
+    transition: .4s;
+}
+
+#body.purple header .tarjeta-dd .title{
+    background: #9705fc73;
+    transition: .4s;
+}
+
+#body.purple2 header .tarjeta-dd .cont-text{
+    background: #a305fc75;
+    transition: .4s;
+}
+
+#body.purple header .tarjeta-dd2 .title{
+    background: #a305fc75;
+    transition: .4s;
+}
+
+#body.purple #Estudios .container{
+    background: #a305fc75;
+    transition: .4s;
+}
+
+#body.purple #Estudios{
+    background: url(../img/bg-header1.gif);
+    transition:.4s;
+}
+
+#body.purple #Proyectos{
+    background: url(../img/Bg-header.gif);
+    transition: .4s;
+}
+
+#body.purple #Contacto{
+    background: url(../img/bg-header5.gif);
+    transition: .4s;
+}
+
+/* CÓDIGO RESPONSIVE TABLET  */
+@media screen and (max-width:990px) and (min-width:768px){
+    .container .tarjeta-dd .cont-text{
+        font-size: 10px;
+
+    }
+
+    header .tarjeta-dd img{
+        max-width: 100%;
+        width: 675px;
+    }
+
+    #Habilidades .col-card-habilidades img{
+        max-width: 100%;
+        width: 675px;
+    }
+
+    #Estudios .col-card-estudios img{
+        max-width: 100%;
+        width: 675px;
+    }
+
+    #Experiencia .col-card-experiencia img{
+        max-width: 100%;
+        width: 675px;
+    }
+
+    #Proyectos .col-card-proyectos img{
+        max-width: 100%;
+        width: 675px;
+    }
+
+    #general .tarjeta-ddd img{
+        max-width: 100%;
+        width: 675px;
+    }
+
+    #general .tarjeta.tarjeta-dp2 img{
+        max-width: 100%;
+        width: 675px;
+    }
+
+
+}
+
+/* CÓDIGO RESPONSIVE PHONE */
+@media screen and (max-width:600px) and (min-width:320px){
+    .container .tarjeta-dd .cont-text{
+        font-size: 5px;
+    }
+
+    header .tarjeta-dd img{
+        max-width: 100%;
+        width: 675px;
+    }
+    
+    #Habilidades .col-card-habilidades img{
+        max-width: 100%;
+        width: 675px;
+    }
+
+    #Estudios .col-card-estudios img{
+        max-width: 100%;
+        width: 675px;
+    }
+
+    #Experiencia .col-card-experiencia img{
+        max-width: 100%;
+        width: 675px;
+    }
+
+    #Proyectos .col-card-proyectos img{
+        max-width: 100%;
+        width: 675px;
+    }
+
+    #general .tarjeta-ddd img{
+        max-width: 100%;
+        width: 675px;
+    }
+
+    #general .tarjeta.tarjeta-dp2 img{
+        max-width: 100%;
+        width: 675px;
+    }
+
+    
+}
+
+
+
+
+
+
+
